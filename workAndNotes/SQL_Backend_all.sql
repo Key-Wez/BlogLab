@@ -135,7 +135,7 @@ CREATE TYPE [dbo].[BlogCommentType] AS TABLE
 
 --	================================================	Stored Procedures
 
-CREATE PROCEDURE [dbo].[GetByUserName]
+CREATE PROCEDURE [dbo].[Account_GetByUserName]
 	@NormalizedUsername VARCHAR(20)
 AS
 	SELECT [ApplicationUserId]
@@ -151,7 +151,6 @@ AS
 		t1.[NormalizedUsername] = @NormalizedUsername
 
 ---
-
 CREATE PROCEDURE [dbo].[Account_Insert]
 	@Account [AccountType] READONLY
 AS
