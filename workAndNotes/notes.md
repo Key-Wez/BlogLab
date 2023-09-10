@@ -79,3 +79,7 @@ Action that going to perform when the URL resolve into it. (http action/verbs)
 - Photo_Get
 - Photo_GetByUserId
 - Photo_Insert
+
+---
+- https://jwt.io/
+- https://cloudinary.com/
