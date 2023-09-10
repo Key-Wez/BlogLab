@@ -89,4 +89,8 @@ Action that going to perform when the URL resolve into it. (http action/verbs)
 [Live Training / Videos](https://training.cloudinary.com/courses/cloudinary-jumpstart-for-new-developer-users-40-minute-course)
 [Console](https://console.cloudinary.com/console/c-4bf3cac031de8dc9af7c1c72f91dc2/getting-started)
 
-Read on IOptions `using Microsoft.Extensions.Options;` What does it do?
+**Read on IOptions `using Microsoft.Extensions.Options;` What does it do?**
+
+
+
+https://stackoverflow.com/questions/70952271/startup-cs-class-is-missing-in-net-6
