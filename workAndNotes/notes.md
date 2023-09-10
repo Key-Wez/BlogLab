@@ -107,3 +107,24 @@ On summary.pipe.ts It seems like I have a problem but it did compile... I shall 
 - https://stackoverflow.com/questions/61206439/typescript-error-ts2354-this-syntax-requires-an-imported-helper-but-module-ts
 
 - https://github.com/microsoft/TypeScript/issues/37991
+
+### generate componants
+example : `ng g component components/blog-components/blog`
+- `ng g component components/blog-components/`+ 
+- `blog`
+- `blog-card`
+- `blog-edit`
+- `blogs`
+- `famous-blogs`
+---
+- `ng g component components/comment-components/`+ 
+- `comment-box`
+- `comment-system`
+- `comments`
+ng g component components/dashboard
+ng g component components/home
+ng g component components/login
+ng g component components/navbar
+ng g component components/not-found
+ng g component components/photo-album
+ng g component components/register
