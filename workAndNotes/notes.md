@@ -83,3 +83,10 @@ Action that going to perform when the URL resolve into it. (http action/verbs)
 ---
 - https://jwt.io/
 - https://cloudinary.com/
+
+## Cloudinary
+[Get Started](https://cloudinary.com/documentation/cloudinary_get_started)
+[Live Training / Videos](https://training.cloudinary.com/courses/cloudinary-jumpstart-for-new-developer-users-40-minute-course)
+[Console](https://console.cloudinary.com/console/c-4bf3cac031de8dc9af7c1c72f91dc2/getting-started)
+
+Read on IOptions `using Microsoft.Extensions.Options;` What does it do?

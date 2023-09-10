@@ -51,6 +51,9 @@ Thumbs.db
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+#appsetting added by me
+appsettings.json
+
 # User-specific files
 *.rsuser
 *.suo
@@ -106,6 +109,7 @@ dlldata.c
 BenchmarkDotNet.Artifacts/
 
 # .NET Core
+
 project.lock.json
 project.fragment.lock.json
 artifacts/
