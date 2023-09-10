@@ -13,7 +13,7 @@ using BlogLab.Models.Account;
 
 namespace BlogLab.Repository
 {
-    internal class BlogRepository : IBlogRepository
+    public class BlogRepository : IBlogRepository
     {
         private readonly IConfiguration _config;
         public BlogRepository(IConfiguration config)

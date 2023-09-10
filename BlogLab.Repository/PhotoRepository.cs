@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace BlogLab.Repository
 {
-    internal class PhotoRepository : IPhotoRepository
+    public class PhotoRepository : IPhotoRepository
     {
         private readonly IConfiguration _config;
         public PhotoRepository(IConfiguration config)
