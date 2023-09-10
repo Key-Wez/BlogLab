@@ -94,3 +94,16 @@ Action that going to perform when the URL resolve into it. (http action/verbs)
 
 
 https://stackoverflow.com/questions/70952271/startup-cs-class-is-missing-in-net-6
+
+
+## ANGULAR (Section6 - build the forntend...)
+
+`ng g pipe pipes/summary` this is to create pipes from Angular CLI 'g' is for generate
+
+On summary.pipe.ts It seems like I have a problem but it did compile... I shall look at it if anything...
+
+`This syntax requires an imported helper but module 'tslib' cannot be found.ts(2354)`
+
+- https://stackoverflow.com/questions/61206439/typescript-error-ts2354-this-syntax-requires-an-imported-helper-but-module-ts
+
+- https://github.com/microsoft/TypeScript/issues/37991
