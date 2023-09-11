@@ -3,6 +3,7 @@ using BlogLab.Models.Account;
 using BlogLab.Models.Settings;
 using BlogLab.Repository;
 using BlogLab.Services;
+using BlogLab.Web.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
@@ -85,7 +86,34 @@ namespace BlogLab.Web
         #endregion
 
         #region Configure / midleware
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            app.ConfigureExceptionHandler();
 
+            app.UseRouting();
+
+            if (env.IsDevelopment())
+            {
+                app.UseCors(options => options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin() );
+            }
+            else
+            {
+                app.UseCors();
+            }
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+
+        }
 
         #endregion
 
