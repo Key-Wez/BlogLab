@@ -52,8 +52,7 @@ Thumbs.db
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 #appsetting added by me
-BlogLab.Web/appsettings.json
-appsettings.json
+./BlogLab.Web/appsettings.json
 tempConfig.md
 
 # User-specific files
@@ -450,3 +449,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+BlogLab.Web/appsettings.json
